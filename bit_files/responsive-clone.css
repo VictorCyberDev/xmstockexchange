@@ -1,0 +1,412 @@
+@media (max-width: 1199px){
+	.top_footer{
+		padding:50px 0;
+	}
+	.account-body table td label,
+	.account-body table tr td:last-child{
+		font-size:12px;
+	}
+	.ac-box{
+		margin-bottom:30px;
+	}
+	.admin-header-left{
+		margin-left:15px;
+	}
+	.admin-menu > li > a{
+		font-size:14px;
+	}
+	.security-body ul li label{
+		font-size:12px;
+		line-height:18px;
+	}
+	.security-body ul li{
+		margin:5px;
+	}
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.customer-wrapper{
+		position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+	}
+	.banner_text h1{
+		font-size:24px;
+		line-height:32px;
+	}
+	.banner_text h3{
+		font-size:15px;
+	}
+	.v_light .banner_text h1, .v_light .banner_text h3{
+		margin-bottom:10px;
+	}
+	.banner_section{
+		padding:140px 0;
+	}
+	.stat-li li{
+		padding:30px 0 0px;
+	}
+	.dep-calc h6{
+		font-size:14px;
+	}
+	.payment-method li .method-wrap h6{
+		font-size:12px;
+	}
+	.trans-wrapper h5{
+		font-size:16px;
+	}
+	.referal-bar.acct-info{
+		padding:10px;
+	}
+}
+@media (max-width: 991px){
+	.top-header-right{
+		display:none;
+	}
+	.stat-li li h5{
+		font-size:24px;
+	}
+	.footer-menu li a{
+		font-size:13px;
+		letter-spacing:0;
+	}
+	.admin-header-left{
+		display:none;
+	}
+	#admin-menu-toggle{
+		background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+    background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+	}
+	.admin-menu{
+		display:none;
+	}
+	.referal-bar{
+		margin-bottom:15px;
+	}
+	.referal-bar p{
+		font-size:18px;
+	}
+	.referal-bar span{
+		font-size:24px;
+	}
+}
+@media (min-width: 768px) and (max-width:991px){
+	
+}
+@media (max-width: 767px){
+	.cryptime-video{
+		width:100%;
+	}
+	.presentation-video{
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+	.certified{
+		margin-top:0;
+		display:inline-block;
+		text-align:left;
+	}
+	.stat-li li{
+		padding:20px 0;
+		border-bottom:1px solid rgba(255,255,255,0.25);
+		float:none;
+		width:100%;
+	}
+	.stat-li li:last-child{
+		border:none;
+		padding-bottom:0;
+	}
+	.stat-li li img{
+		display:none;
+	}
+	.we-accepted{
+		text-align:center;
+		margin-top:15px;
+	}
+	.banner_text h1{
+		font-size:24px;
+		line-height:36px;
+	}
+	.box_inner.vision-mission{
+		margin-bottom:30px;
+	}
+	.paidout-link a{
+		font-size:11px;
+		line-height:30px;
+		padding: 0 15px 0 10px;
+	}
+	.paidout-link a i{
+		display:none;
+	}
+	.top-header{
+		display:none !important;
+	}
+	#how_it_work .box_inner{
+		margin-bottom:20px;
+	}
+	.page-title{
+		padding: 130px 0 30px 0;
+	}
+	.customer-form{
+		width:auto;
+		padding: 30px 20px;
+	}
+	.loading-detail{
+		width:auto;
+		padding: 20px;
+		background:#fff;
+		box-shadow: none; 
+       -webkit-box-shadow: none;
+	}
+	.referal-wrapper{
+		width:auto;
+	}
+	.acct-info{
+		margin-bottom:20px;
+	}
+	.payment-method li .method-wrap h6{
+		font-size:13px;
+	}
+	.barcode{
+		margin-bottom:20px;
+	}
+	.confirm-line{
+		text-align:center;
+		font-size:20px;
+	}
+	.filter-container{
+		padding:0;
+		box-shadow:none;
+	}
+	.filter-container > .row > div{
+		margin-bottom:15px;
+	}
+	.banner-info li .btn{
+		position:static;
+	}
+	.banner-info li p{
+		padding:10px;
+	}
+}
+@media (max-width: 575px){
+	.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.plans-wrapper ul li{
+	padding:15px;
+	margin-bottom: 30px;
+	padding-left: 100px;
+	}
+	.plans-wrapper ul li .percent{
+	width: 80px;
+	height: 80px;
+	background-size: 80px auto;
+	top: -2px;
+	left: 10px;
+	}
+	.plans-wrapper ul li .percent span{
+	font-size:24px;
+	}
+	.plans-wrapper ul li .percent span b{
+	font-size:18px;
+	}
+	.plans-wrapper ul li .plan-details h5{
+	font-size: 14px;
+	line-height: 20px;
+	}
+	.plans-wrapper ul li .plan-details .min-max {
+    line-height: 20px;
+    font-size: 13px;
+	}
+	.tab-custom ul li a{
+	font-size:12px;
+	padding:12px 10px;
+	}
+	.new-investment{
+		display:none;
+	}
+	.referal-link p.r-link{
+		font-size:12px;
+	}
+	.dep-calc{
+		margin-top:10px;
+	}
+	.plans-wrapper ul li > label,
+	.payment-method li .method-wrap label{
+		font-size:14px;
+		line-height:24px;
+		width:24px;
+		height:24px;
+		right:10px;
+		top: calc(50% - 12px);
+	}
+	.payment-method li .method-wrap{
+		padding-left:40px;
+	}
+	.payment-method li .method-wrap img{
+		max-height:20px;
+		left:10px;
+	}
+	.payment-method li .method-wrap h6{
+		font-size:12px;
+		letter-spacing:0;
+	}
+	.cryp-address-bar{
+		text-align:center !important;
+		padding:10px;
+		background:none; 
+	}
+	.cryp-address-bar p{
+		line-height:1.2;
+		font-size:10px;
+	}
+	.cryp-address-bar .btn{
+		position:static;
+		transform:translateY(0);
+		-webkit-transform:translateY(0); 
+	}
+	.confrimation-bar{
+		padding:15px;
+	}
+	.confirm-line{
+		font-size:15px;
+	}
+	.confrimation-bar h4{
+		font-size:15px;
+		margin-bottom:10px;
+	}
+	.cryp-amt-big{
+		font-size:20px;
+	}
+	.setting-page{
+		padding:0;
+		background:none;
+	}
+	.security-box h3{
+		font-size:16px;
+	}
+	.security-box p{
+		line-height:1.3;
+		margin-top:5px;
+	}
+	.accept-terms{
+		text-align:left;
+	}
+	.security-body ul li{
+		display:block;
+	}
+}
+@media (max-width: 400px){
+	.navbar-brand img{
+		max-width:125px;
+	}
+	.language-wrapper .active-lang{
+		font-size:11px;
+		line-height:30px;
+		padding: 0 10px 0 26px;
+
+	}
+	.language-wrapper .active-lang img{
+		max-width:18px;
+	}
+	.banner_text h1 {
+      font-size: 16px;
+      line-height: 22px;
+	  margin-bottom:5px;
+	}
+	.banner_text h3{
+		font-size:13px;
+		margin-bottom:5px;
+	}
+	.benefit_box h6{
+		font-size:10px;
+	}
+	.plans-wrapper ul li .plan-details h5{
+		font-size:12px;
+	}
+	.plans-wrapper ul li .plan-details .min-max{
+		font-size:11px;
+	}
+	.calculator{
+		padding:15px;
+	}
+	.profit-list li h6{
+		font-size:16px;
+	}
+	.footer-menu li{
+		padding:0 5px;
+	}
+	.footer-menu li a{
+		font-size:11px;
+	}
+	.customer-form .fog-pass{
+		font-size:11px;
+	}
+	.admin-logo img{
+		max-height:30px;
+	}
+	.admin-header-right{
+		margin:0;
+	}
+	.admin-top-left .user-top-info{
+		padding-left:0;
+		background:none;
+	}
+	.referal-wrapper h5{
+		font-size:14px;
+	}
+	.referal-link .ref-box .btn{
+		position:static;
+		transform:translateY(0);
+		-webkit-transform:translateY(0); 
+		-moz-transform:translateY(0);
+	}
+	.account-body table td{
+		padding:5px;
+	}
+	.account-body table td label, .account-body table tr td:last-child{
+		font-size:11px;
+	}
+	.copyrights-admin{
+		font-size:12px;
+	}
+	.referal-link p.r-link{
+		font-size:10px;
+	}
+	.plans-wrapper ul li{
+		padding-left:70px;
+	}
+	.plans-wrapper ul li .percent {
+      width: 50px;
+      height: 50px;
+      background-size: 50px auto;
+      top: 12px;
+      left: 10px;
+	}
+	.plans-wrapper ul li .percent span{
+		font-size:14px;
+	}
+	.plans-wrapper ul li .percent span b {
+      font-size: 10px;
+    }
+	.payment-method li .method-wrap h6 {
+      font-size: 11px;
+      line-height: 1.4;
+      letter-spacing: 0;
+    }
+	.deposit-wrapper{
+		padding:15px
+	}
+}

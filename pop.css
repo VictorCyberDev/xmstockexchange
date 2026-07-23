@@ -1,0 +1,48 @@
+#popup {
+   
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 800px;
+    height: 70px;
+    padding: 12px;
+    padding-left:55px;
+    background-color: #454a56;
+    color: white;
+    text-align: center;
+    border-radius: 0px;
+    box-shadow: 0px 4px 10px rgba(52, 48, 71, 0.5);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers horizontally */
+}
+
+#sentence {
+    max-width: calc(100% - 100px); /* Adjust as necessary */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+#checkmark {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    background-color:green;
+}
+
+#close {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}

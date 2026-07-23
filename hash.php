@@ -1,0 +1,1 @@
+<?php echo password_hash("Xmstockexchange01", PASSWORD_DEFAULT); ?>

@@ -10,10 +10,10 @@ function setupMailer() {
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
+    $mail->Host       = 'KKKKKKK';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'support@xmstockexchange.com'; // CHANGE
-    $mail->Password   = '@Xmstockexchange01';                // CHANGE (gmail app password)
+    $mail->Username   = 'KKKKKKKKK'; // CHANGE
+    $mail->Password   = 'KKKKKKKKKK                // CHANGE (gmail app password)
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 

@@ -1,9 +1,5 @@
 <?php
-// Database configuration
-$host = "localhost";
-$db_user = "u239040674_xmstockexchang";
-$db_pass = "Xmstockexchange01";
-$db_name = "u239040674_xmstockexchang";
+
 
 // Establish Connection
 try {
